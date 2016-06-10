@@ -69,14 +69,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 15, ../sass/screen.scss */
 h1 {
-  font-size: 3em;
+  font-size: 8vmin;
   margin-bottom: 20px;
   font-weight: bold;
 }
 
 /* line 21, ../sass/screen.scss */
 h2 {
-  font-size: 1.5em;
+  font-size: 4vmin;
   margin-bottom: 20px;
 }
 
@@ -89,31 +89,33 @@ em {
 body {
   font-family: "Roboto";
   display: flex;
+  font-size: 100%;
   justify-content: center;
   flex-flow: column;
   align-items: center;
   min-height: 100vh;
 }
 
-/* line 41, ../sass/screen.scss */
+/* line 42, ../sass/screen.scss */
 .product {
   align-self: flex-start;
   font-size: 70%;
   padding: 20px;
 }
 
-/* line 47, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 .intro {
   background: url("/images/intro.png");
+  background-repeat: no-repeat;
   color: white;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-flow: column;
   overflow: hidden;
 }
 
-/* line 58, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
 .card {
   background: white;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
@@ -121,25 +123,28 @@ body {
   padding: 50px;
 }
 
-/* line 65, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 .caption {
   padding-right: 20px;
-  max-width: 50%;
+}
+@media (min-width: 800px) {
+  /* line 67, ../sass/screen.scss */
+  .caption {
+    max-width: 50%;
+  }
 }
 
-/* line 70, ../sass/screen.scss */
+/* line 76, ../sass/screen.scss */
 .feature {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   padding-top: 120px;
-  padding-left: 50px;
   padding-bottom: 120px;
-  padding-right: 50px;
 }
 
-/* line 83, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 .value-prop {
   flex: 1;
   display: flex;
@@ -147,30 +152,32 @@ body {
   flex-flow: column;
 }
 
-/* line 90, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
 .value-prop > div {
   padding-left: 40px;
 }
 
-/* line 94, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 .spacer, .maps-spacer, .mountain-spacer {
   height: 40vh;
   width: 100%;
 }
 
-/* line 99, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 .maps-spacer {
   background: url("/images/maps-photo.jpeg");
+  background-repeat: no-repeat;
 }
 
-/* line 104, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
 .mountain-spacer {
   background: url("/images/mountain-photo.jpeg");
+  background-repeat: no-repeat;
 }
 
-/* line 109, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 .enroll-button {
-  font-size: 1.2em;
+  font-size: 3vmin;
   border-radius: 5px;
   padding: 10px;
   color: white;
@@ -178,13 +185,13 @@ body {
   border-style: none;
 }
 
-/* line 118, ../sass/screen.scss */
+/* line 125, ../sass/screen.scss */
 .enroll-button a {
   color: white;
   text-decoration: none;
 }
 
-/* line 123, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
 .signup {
   width: 100%;
   color: white;
@@ -197,12 +204,12 @@ body {
   align-items: center;
 }
 
-/* line 135, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 #mc_embed_signup {
   font: 14px "Roboto",Arial,sans-serif;
 }
 
-/* line 139, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 #mc_embed_signup input.button {
   background: #FFC107;
   color: white;
