@@ -127,12 +127,13 @@ body {
   text-decoration: none;
 }
 
-.signup {
-  width: 100%;
+.signup {  
   color: white;
   background: $primary-color;
   padding-top: 100px;
   padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 10px;
   display: flex;
   flex-flow: column;
   justify-content: center;
