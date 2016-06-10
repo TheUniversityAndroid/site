@@ -15,11 +15,16 @@ $accent-color: #FFC107;
 h1 {
   font-size: 3em;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 h2 {
   font-size: 1.5em;
   margin-bottom: 20px;
+}
+
+em {
+  font-style: italic;
 }
 
 body {
@@ -41,10 +46,10 @@ body {
 
 .intro {
   // background: linear-gradient(to bottom, $primary-color, $primary-color 50%, white 50%);
-  background: url("/intro.png");
+  background: url("/images/intro.png");
   color: white;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-flow: column;
   overflow: hidden;
@@ -57,12 +62,48 @@ body {
   padding: 50px;
 }
 
+.caption {
+  padding-right: 20px;
+  max-width: 50%;
+}
+
+.feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: {
+    top: 120px;
+    left: 50px;
+    bottom: 120px;
+    right: 50px;
+  }
+}
+
 .value-prop {
-  margin-left: 40px;
   flex: 1;
   display: flex;
   justify-content: center;
   flex-flow: column;
+}
+
+.value-prop > div {
+  padding-left: 40px;
+}
+
+.spacer {
+  height: 40vh;
+  width: 100%;
+}
+
+.maps-spacer {
+  @extend .spacer;
+  background: url("/images/maps-photo.jpeg");
+}
+
+.mountain-spacer {
+  @extend .spacer;
+  background: url("/images/mountain-photo.jpeg");
 }
 
 .enroll-button {
@@ -72,4 +113,25 @@ body {
   color: white;
   background: $accent-color;
   border-style: none;
+}
+
+.signup {
+  width: 100%;
+  color: white;
+  background: $primary-color;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#mc_embed_signup {
+  font:14px "Roboto",Arial,sans-serif;  
+}
+
+#mc_embed_signup input.button {
+  background: $accent-color;
+  color: white;
 }
