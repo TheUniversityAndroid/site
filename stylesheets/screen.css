@@ -179,6 +179,12 @@ body {
 }
 
 /* line 118, ../sass/screen.scss */
+.enroll-button a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 123, ../sass/screen.scss */
 .signup {
   width: 100%;
   color: white;
@@ -191,12 +197,12 @@ body {
   align-items: center;
 }
 
-/* line 130, ../sass/screen.scss */
+/* line 135, ../sass/screen.scss */
 #mc_embed_signup {
   font: 14px "Roboto",Arial,sans-serif;
 }
 
-/* line 134, ../sass/screen.scss */
+/* line 139, ../sass/screen.scss */
 #mc_embed_signup input.button {
   background: #FFC107;
   color: white;

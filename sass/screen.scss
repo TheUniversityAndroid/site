@@ -115,6 +115,11 @@ body {
   border-style: none;
 }
 
+.enroll-button a {
+  color: white;
+  text-decoration: none;
+}
+
 .signup {
   width: 100%;
   color: white;
@@ -128,7 +133,7 @@ body {
 }
 
 #mc_embed_signup {
-  font:14px "Roboto",Arial,sans-serif;  
+  font:14px "Roboto",Arial,sans-serif;
 }
 
 #mc_embed_signup input.button {
