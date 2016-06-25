@@ -193,6 +193,7 @@ body {
 
 /* line 130, ../sass/screen.scss */
 .signup {
+  width: 100vw;
   color: white;
   background: #56334F;
   padding-top: 100px;
@@ -205,12 +206,12 @@ body {
   align-items: center;
 }
 
-/* line 143, ../sass/screen.scss */
+/* line 144, ../sass/screen.scss */
 #mc_embed_signup {
   font: 14px "Roboto",Arial,sans-serif;
 }
 
-/* line 147, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 #mc_embed_signup input.button {
   background: #FFC107;
   color: white;
