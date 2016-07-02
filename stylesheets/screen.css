@@ -198,20 +198,18 @@ body {
   background: #56334F;
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 100px;
-  padding-right: 10px;
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
 }
 
-/* line 144, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 #mc_embed_signup {
   font: 14px "Roboto",Arial,sans-serif;
 }
 
-/* line 148, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 #mc_embed_signup input.button {
   background: #FFC107;
   color: white;
